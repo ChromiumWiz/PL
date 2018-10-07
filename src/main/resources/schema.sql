@@ -1,4 +1,4 @@
-CREATE TABLE Track (
+CREATE TABLE track (
   track_no INT NOT NULL AUTO_INCREMENT,
   title VARCHAR(200),
   duration VARCHAR(200),

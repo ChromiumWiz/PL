@@ -9,11 +9,10 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name = "Track")
 public class Track {
     
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int trackNo;
     
     private String title;
